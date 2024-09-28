@@ -1,0 +1,205 @@
+2024-09-27 13:26:56,860 DEBUG cd frappe-bench && python3 -m venv env
+2024-09-27 13:27:29,611 DEBUG cd frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-09-27 13:28:06,160 DEBUG cd frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-09-27 13:28:13,188 LOG Getting frappe
+2024-09-27 13:28:13,188 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-09-27 13:28:34,885 LOG Installing frappe
+2024-09-27 13:28:34,889 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/frappe 
+2024-09-27 13:34:44,908 DEBUG cd /workspace/development/frappe-bench/apps/frappe && yarn install --check-files
+2024-09-27 13:36:59,361 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-27 13:36:59,361 DEBUG cd frappe-bench && bench build
+2024-09-27 13:36:59,521 INFO /home/frappe/.local/bin/bench build
+2024-09-27 13:37:57,059 LOG setting up backups
+2024-09-27 13:37:57,094 LOG backups were set up
+2024-09-27 13:37:57,094 INFO Bench frappe-bench initialized
+2024-09-27 13:49:37,478 INFO /home/frappe/.local/bin/bench set-config -g db_host mariadb
+2024-09-27 13:49:40,190 INFO /home/frappe/.local/bin/bench set-config -g redis_cache redis://redis-cache:6379
+2024-09-27 13:49:42,924 INFO /home/frappe/.local/bin/bench set-config -g redis_queue redis://redis-queue:6379
+2024-09-27 13:49:45,593 INFO /home/frappe/.local/bin/bench set-config -g redis_socketio redis://redis-queue:6379
+2024-09-27 13:50:53,841 INFO /home/frappe/.local/bin/bench new-site dummy.localhost
+2024-09-27 13:53:54,157 INFO /home/frappe/.local/bin/bench run
+2024-09-27 13:54:40,879 INFO /home/frappe/.local/bin/bench new-app dummy
+2024-09-27 13:54:40,897 LOG creating new app dummy
+2024-09-27 13:55:29,162 LOG Installing dummy
+2024-09-27 13:55:29,199 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/dummy 
+2024-09-27 13:55:50,701 DEBUG bench build --app dummy
+2024-09-27 13:55:50,870 INFO /home/frappe/.local/bin/bench build --app dummy
+2024-09-27 13:56:09,269 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-27 13:56:50,616 INFO /home/frappe/.local/bin/bench run
+2024-09-27 13:57:01,986 INFO /home/frappe/.local/bin/bench run
+2024-09-27 13:57:11,137 INFO /home/frappe/.local/bin/bench start
+2024-09-27 13:57:11,482 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 13:57:11,487 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 13:57:11,487 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 13:57:11,489 INFO /home/frappe/.local/bin/bench schedule
+2024-09-27 14:07:40,023 INFO /home/frappe/.local/bin/bench get-app erpnext
+2024-09-27 14:07:40,667 LOG Getting erpnext
+2024-09-27 14:07:40,667 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git  --depth 1 --origin upstream
+2024-09-27 14:08:21,170 LOG Installing erpnext
+2024-09-27 14:08:21,176 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/erpnext 
+2024-09-27 14:09:29,387 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && yarn install --check-files
+2024-09-27 14:09:30,243 DEBUG bench build --app erpnext
+2024-09-27 14:09:30,411 INFO /home/frappe/.local/bin/bench build --app erpnext
+2024-09-27 14:09:59,253 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-27 14:10:37,503 INFO /home/frappe/.local/bin/bench start
+2024-09-27 14:10:37,865 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 14:10:37,865 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 14:10:37,871 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 14:10:37,871 INFO /home/frappe/.local/bin/bench schedule
+2024-09-27 14:11:20,622 INFO /home/frappe/.local/bin/bench start
+2024-09-27 14:11:20,994 INFO /home/frappe/.local/bin/bench schedule
+2024-09-27 14:11:20,994 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 14:11:20,994 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 14:11:21,009 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 14:11:54,917 INFO /home/frappe/.local/bin/bench --site dummy.localhost install-app erpnext
+2024-09-27 14:12:55,033 INFO /home/frappe/.local/bin/bench --site dummy.localhost reinstall
+2024-09-27 14:15:11,064 INFO /home/frappe/.local/bin/bench --site dummy.localhost install-app erpnext
+2024-09-27 14:19:34,948 INFO /home/frappe/.local/bin/bench --site dummy.localhost install erpnext
+2024-09-27 14:19:34,968 WARNING /home/frappe/.local/bin/bench --site dummy.localhost install erpnext executed with exit code 2
+2024-09-27 14:19:52,861 INFO /home/frappe/.local/bin/bench --site dummy.localhost install erpnext
+2024-09-27 14:19:52,869 WARNING /home/frappe/.local/bin/bench --site dummy.localhost install erpnext executed with exit code 2
+2024-09-27 14:20:30,378 INFO /home/frappe/.local/bin/bench --site dummy.localhost install-app erpnext
+2024-09-27 14:22:17,019 INFO /home/frappe/.local/bin/bench --site dummy.localhost reinstall-app erpnext
+2024-09-27 14:22:32,384 INFO /home/frappe/.local/bin/bench --site dummy.localhost reinstall erpnext
+2024-09-27 14:22:49,008 INFO /home/frappe/.local/bin/bench --site dummy.localhost reinstall erpnext
+2024-09-27 14:23:10,666 INFO /home/frappe/.local/bin/bench --site dummy.localhost uninstall erpnext
+2024-09-27 14:23:27,967 INFO /home/frappe/.local/bin/bench --site dummy.localhost uninstall-app erpnext
+2024-09-27 14:24:03,112 INFO /home/frappe/.local/bin/bench
+2024-09-27 14:24:53,744 INFO /home/frappe/.local/bin/bench --site dummy.localhost remove-app erpnext
+2024-09-27 14:24:53,752 WARNING /home/frappe/.local/bin/bench --site dummy.localhost remove-app erpnext executed with exit code 2
+2024-09-27 14:25:03,620 INFO /home/frappe/.local/bin/bench remove-app erpnext
+2024-09-27 14:25:03,851 INFO /home/frappe/.local/bin/bench --site all list-apps --format json
+2024-09-27 14:25:08,346 INFO /home/frappe/.local/bin/bench --site dummy.localhost list-apps
+2024-09-27 14:25:12,605 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip uninstall -y erpnext
+2024-09-27 14:27:55,360 INFO App moved from apps/erpnext to archived/apps/erpnext-2024-09-27
+2024-09-27 14:27:55,397 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-27 14:28:31,023 INFO /home/frappe/.local/bin/bench --site dummy.localhost install-app erpnext
+2024-09-27 14:29:50,761 INFO /home/frappe/.local/bin/bench --site dummy.localhost install-app erpnext
+2024-09-27 14:30:33,902 INFO /home/frappe/.local/bin/bench --site dummy.localhost install-app erpnext
+2024-09-27 14:31:24,435 INFO /home/frappe/.local/bin/bench get-app erpnext
+2024-09-27 14:31:25,082 LOG Getting erpnext
+2024-09-27 14:31:25,082 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git  --depth 1 --origin upstream
+2024-09-27 14:31:54,176 LOG Installing erpnext
+2024-09-27 14:31:54,181 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/erpnext 
+2024-09-27 14:32:20,982 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && yarn install --check-files
+2024-09-27 14:32:21,868 DEBUG bench build --app erpnext
+2024-09-27 14:32:22,047 INFO /home/frappe/.local/bin/bench build --app erpnext
+2024-09-27 14:33:05,203 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-27 14:33:45,294 INFO /home/frappe/.local/bin/bench --site dummy.localhost install-app erpnext
+2024-09-27 14:34:38,257 INFO /home/frappe/.local/bin/bench
+2024-09-27 14:35:02,174 INFO /home/frappe/.local/bin/bench remove-app erpnext
+2024-09-27 14:35:02,344 INFO /home/frappe/.local/bin/bench --site all list-apps --format json
+2024-09-27 14:35:06,641 INFO /home/frappe/.local/bin/bench --site dummy.localhost list-apps
+2024-09-27 14:35:10,526 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip uninstall -y erpnext
+2024-09-27 14:35:33,932 INFO App moved from apps/erpnext to archived/apps/erpnext-2024-09-27_1
+2024-09-27 14:35:33,966 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-27 14:36:08,231 INFO /home/frappe/.local/bin/bench
+2024-09-27 14:39:15,921 INFO /home/frappe/.local/bin/bench --site dummy.localhost install-app erpnext
+2024-09-27 14:39:40,051 INFO /home/frappe/.local/bin/bench install erpnext
+2024-09-27 14:39:40,053 WARNING superuser privileges required for this command
+2024-09-27 14:39:58,412 INFO /home/frappe/.local/bin/bench get-app erpnext
+2024-09-27 14:39:58,988 LOG Getting erpnext
+2024-09-27 14:39:58,989 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git  --depth 1 --origin upstream
+2024-09-27 14:40:28,040 LOG Installing erpnext
+2024-09-27 14:40:28,046 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/erpnext 
+2024-09-27 14:40:49,098 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && yarn install --check-files
+2024-09-27 14:40:49,699 DEBUG bench build --app erpnext
+2024-09-27 14:40:49,871 INFO /home/frappe/.local/bin/bench build --app erpnext
+2024-09-27 14:41:13,231 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-27 14:41:39,329 INFO /home/frappe/.local/bin/bench --site dummy.localhost install-app erpnext
+2024-09-27 14:43:25,384 INFO /home/frappe/.local/bin/bench new-site dummy2.localhost
+2024-09-27 14:45:50,130 INFO /home/frappe/.local/bin/bench start
+2024-09-27 14:45:50,468 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 14:45:50,482 INFO /home/frappe/.local/bin/bench schedule
+2024-09-27 14:45:50,485 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 14:45:50,522 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 14:49:10,829 INFO /home/frappe/.local/bin/bench new-app dummy2
+2024-09-27 14:49:10,845 LOG creating new app dummy2
+2024-09-27 14:49:41,425 LOG Installing dummy2
+2024-09-27 14:49:41,467 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/dummy2 
+2024-09-27 14:49:56,061 DEBUG bench build --app dummy2
+2024-09-27 14:49:56,224 INFO /home/frappe/.local/bin/bench build --app dummy2
+2024-09-27 14:50:18,970 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-27 14:50:53,255 INFO /home/frappe/.local/bin/bench start
+2024-09-27 14:50:53,609 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 14:50:53,615 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 14:50:53,621 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 14:50:53,630 INFO /home/frappe/.local/bin/bench schedule
+2024-09-27 14:51:03,818 INFO /home/frappe/.local/bin/bench start
+2024-09-27 14:51:04,228 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 14:51:04,228 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 14:51:04,229 INFO /home/frappe/.local/bin/bench schedule
+2024-09-27 14:51:04,239 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 14:51:39,807 INFO /home/frappe/.local/bin/bench start
+2024-09-27 14:51:40,144 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 14:51:40,144 INFO /home/frappe/.local/bin/bench schedule
+2024-09-27 14:51:40,144 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 14:51:40,198 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 14:52:08,417 INFO /home/frappe/.local/bin/bench start
+2024-09-27 14:52:08,791 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 14:52:08,797 INFO /home/frappe/.local/bin/bench schedule
+2024-09-27 14:52:08,805 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 14:52:08,819 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 14:52:30,671 INFO /home/frappe/.local/bin/bench start
+2024-09-27 14:52:31,029 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 14:52:31,029 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 14:52:31,041 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 14:52:31,044 INFO /home/frappe/.local/bin/bench schedule
+2024-09-27 14:53:01,544 INFO /home/frappe/.local/bin/bench start
+2024-09-27 14:53:01,883 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 14:53:01,891 INFO /home/frappe/.local/bin/bench schedule
+2024-09-27 14:53:01,892 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 14:53:01,895 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 14:55:45,915 INFO /home/frappe/.local/bin/bench run
+2024-09-27 14:56:30,446 INFO /home/frappe/.local/bin/bench run
+2024-09-27 14:56:41,487 INFO /home/frappe/.local/bin/bench start
+2024-09-27 14:56:41,822 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 14:56:41,826 INFO /home/frappe/.local/bin/bench schedule
+2024-09-27 14:56:41,838 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 14:56:41,857 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 14:57:49,738 INFO /home/frappe/.local/bin/bench --site uninstall dummy.localhost
+2024-09-27 14:58:05,445 INFO /home/frappe/.local/bin/bench start
+2024-09-27 14:58:05,830 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 14:58:05,847 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 14:58:05,858 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 14:58:05,860 INFO /home/frappe/.local/bin/bench schedule
+2024-09-27 14:59:42,294 INFO /home/frappe/.local/bin/bench start
+2024-09-27 14:59:42,657 INFO /home/frappe/.local/bin/bench watch
+2024-09-27 14:59:42,657 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-27 14:59:42,669 INFO /home/frappe/.local/bin/bench worker
+2024-09-27 14:59:42,672 INFO /home/frappe/.local/bin/bench schedule
+2024-09-28 06:28:33,834 INFO /home/frappe/.local/bin/bench start
+2024-09-28 06:28:34,282 INFO /home/frappe/.local/bin/bench schedule
+2024-09-28 06:28:34,282 INFO /home/frappe/.local/bin/bench watch
+2024-09-28 06:28:34,282 INFO /home/frappe/.local/bin/bench worker
+2024-09-28 06:28:34,297 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-28 07:14:11,758 INFO /home/frappe/.local/bin/bench --site dummy2.localhost set-admin-password admin123
+2024-09-28 07:19:08,546 INFO /home/frappe/.local/bin/bench --site dummy.localhost uninstall-app erpnext
+2024-09-28 07:19:30,694 INFO /home/frappe/.local/bin/bench --site dummy2.localhost uninstall-app erpnext
+2024-09-28 07:24:09,647 INFO /home/frappe/.local/bin/bench start
+2024-09-28 07:24:10,121 INFO /home/frappe/.local/bin/bench schedule
+2024-09-28 07:24:10,127 INFO /home/frappe/.local/bin/bench watch
+2024-09-28 07:24:10,144 INFO /home/frappe/.local/bin/bench worker
+2024-09-28 07:24:10,165 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-28 07:29:36,248 INFO /home/frappe/.local/bin/bench --site dummy.localhost install-app erpnext
+2024-09-28 07:30:55,115 INFO /home/frappe/.local/bin/bench --site dummy2.localhost install-app erpnext
+2024-09-28 07:42:24,842 INFO /home/frappe/.local/bin/bench new-site dummy.localhost
+2024-09-28 07:44:23,478 INFO /home/frappe/.local/bin/bench --site dummy.localhost install-app erpnext
+2024-09-28 07:59:53,174 INFO /home/frappe/.local/bin/bench start
+2024-09-28 07:59:54,470 INFO /home/frappe/.local/bin/bench worker
+2024-09-28 07:59:54,470 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-28 07:59:54,470 INFO /home/frappe/.local/bin/bench schedule
+2024-09-28 07:59:54,470 INFO /home/frappe/.local/bin/bench watch
+2024-09-28 08:19:01,358 INFO /home/frappe/.local/bin/bench new-app testing
+2024-09-28 08:19:01,375 LOG creating new app testing
+2024-09-28 08:20:17,824 LOG Installing testing
+2024-09-28 08:20:17,863 DEBUG cd /workspace/development/frappe-bench && /workspace/development/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /workspace/development/frappe-bench/apps/testing 
+2024-09-28 08:20:38,223 DEBUG bench build --app testing
+2024-09-28 08:20:38,391 INFO /home/frappe/.local/bin/bench build --app testing
+2024-09-28 08:21:01,582 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-28 09:41:38,292 INFO /home/frappe/.local/bin/bench
+2024-09-28 10:17:44,096 INFO /home/frappe/.local/bin/bench start
+2024-09-28 10:17:44,520 INFO /home/frappe/.local/bin/bench worker
+2024-09-28 10:17:44,520 INFO /home/frappe/.local/bin/bench serve --port 8000
+2024-09-28 10:17:44,527 INFO /home/frappe/.local/bin/bench schedule
+2024-09-28 10:17:44,543 INFO /home/frappe/.local/bin/bench watch
