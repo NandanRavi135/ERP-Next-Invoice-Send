@@ -18,14 +18,14 @@
         "idx": 3,
         "version": "16.0.0-dev"
     },
-    "testing": {
+    "erpapi": {
         "is_repo": true,
         "resolution": {
-            "commit_hash": "5484ff0b5e6f41844c786abbd5bcd1102e0c29d5",
+            "commit_hash": "5e32840644716e7810e5907a506ba26a29d034b6",
             "branch": "develop"
         },
         "required": [],
-        "idx": 3,
+        "idx": 4,
         "version": "0.0.1"
     }
 }
