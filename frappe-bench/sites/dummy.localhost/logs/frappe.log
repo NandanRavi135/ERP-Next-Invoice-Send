@@ -115,3 +115,108 @@ Form Dict: {}
 2024-09-30 14:09:07,402 ERROR frappe New Exception collected in error log
 Site: dummy.localhost
 Form Dict: {}
+2024-10-01 08:16:23,996 ERROR frappe Error while inserting deferred Route History record: module 'erpapi.erpapi.invoiceapi' has no attribute 'test'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:16:24,003 ERROR frappe Error while inserting deferred Route History record: module 'erpapi.erpapi.invoiceapi' has no attribute 'test'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:16:24,008 ERROR frappe Error while inserting deferred Route History record: module 'erpapi.erpapi.invoiceapi' has no attribute 'test'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:16:24,013 ERROR frappe Error while inserting deferred Route History record: module 'erpapi.erpapi.invoiceapi' has no attribute 'test'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:16:24,018 ERROR frappe Error while inserting deferred Route History record: module 'erpapi.erpapi.invoiceapi' has no attribute 'test'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:16:24,022 ERROR frappe Error while inserting deferred Route History record: module 'erpapi.erpapi.invoiceapi' has no attribute 'test'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:17:16,959 ERROR frappe New Exception collected in error log
+Site: dummy.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Item","name":"new-item-srmyryylaq","__islocal":1,"__unsaved":1,"owner":"ravi.nandan@sukan.eu","naming_series":"STO-ITEM-.YYYY.-","stock_uom":"Nos","disabled":0,"allow_alternative_item":0,"is_stock_item":1,"has_variants":0,"is_fixed_asset":0,"auto_create_assets":0,"is_grouped_asset":0,"uoms":[],"end_of_life":"2099-12-31","default_material_request_type":"Purchase","valuation_method":"","allow_negative_stock":0,"barcodes":[],"reorder_levels":[],"has_batch_no":0,"create_new_batch":0,"has_expiry_date":0,"retain_sample":0,"has_serial_no":0,"variant_based_on":"Item Attribute","attributes":[],"enable_deferred_expense":0,"enable_deferred_revenue":0,"item_defaults":[],"min_order_qty":0,"is_purchase_item":1,"is_customer_provided_item":0,"delivered_by_supplier":0,"supplier_items":[],"country_of_origin":"Netherlands","grant_commission":1,"is_sales_item":1,"customer_items":[],"taxes":[],"inspection_required_before_purchase":0,"inspection_required_before_delivery":0,"include_item_in_manufacturing":1,"is_sub_contracted_item":0,"item_code":"IND.810.123","item_name":"Cheese","item_group":"Consumable"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-01 08:18:24,082 ERROR frappe New Exception collected in error log
+Site: dummy.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Item","name":"new-item-srmyryylaq","__islocal":1,"__unsaved":1,"owner":"ravi.nandan@sukan.eu","naming_series":"STO-ITEM-.YYYY.-","stock_uom":"Nos","disabled":0,"allow_alternative_item":0,"is_stock_item":1,"has_variants":0,"is_fixed_asset":0,"auto_create_assets":0,"is_grouped_asset":0,"uoms":[],"end_of_life":"2099-12-31","default_material_request_type":"Purchase","valuation_method":"","allow_negative_stock":0,"barcodes":[],"reorder_levels":[],"has_batch_no":0,"create_new_batch":0,"has_expiry_date":0,"retain_sample":0,"has_serial_no":0,"variant_based_on":"Item Attribute","attributes":[],"enable_deferred_expense":0,"enable_deferred_revenue":0,"item_defaults":[],"min_order_qty":0,"is_purchase_item":1,"is_customer_provided_item":0,"delivered_by_supplier":0,"supplier_items":[],"country_of_origin":"Netherlands","grant_commission":1,"is_sales_item":1,"customer_items":[],"taxes":[],"inspection_required_before_purchase":0,"inspection_required_before_delivery":0,"include_item_in_manufacturing":1,"is_sub_contracted_item":0,"item_code":"IND.810.123","item_name":"Cheese","item_group":"Consumable"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-01 08:19:17,865 ERROR frappe New Exception collected in error log
+Site: dummy.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Item","name":"new-item-srmyryylaq","__islocal":1,"__unsaved":1,"owner":"ravi.nandan@sukan.eu","naming_series":"STO-ITEM-.YYYY.-","stock_uom":"Nos","disabled":0,"allow_alternative_item":0,"is_stock_item":1,"has_variants":0,"is_fixed_asset":0,"auto_create_assets":0,"is_grouped_asset":0,"uoms":[],"end_of_life":"2099-12-31","default_material_request_type":"Purchase","valuation_method":"","allow_negative_stock":0,"barcodes":[],"reorder_levels":[],"has_batch_no":0,"create_new_batch":0,"has_expiry_date":0,"retain_sample":0,"has_serial_no":0,"variant_based_on":"Item Attribute","attributes":[],"enable_deferred_expense":0,"enable_deferred_revenue":0,"item_defaults":[],"min_order_qty":0,"is_purchase_item":1,"is_customer_provided_item":0,"delivered_by_supplier":0,"supplier_items":[],"country_of_origin":"Netherlands","grant_commission":1,"is_sales_item":1,"customer_items":[],"taxes":[],"inspection_required_before_purchase":0,"inspection_required_before_delivery":0,"include_item_in_manufacturing":1,"is_sub_contracted_item":0,"item_code":"IND.810.123","item_name":"Cheese","item_group":"Consumable"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-01 08:24:14,909 ERROR frappe New Exception collected in error log
+Site: dummy.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Item","name":"new-item-xoutfcccjw","__islocal":1,"__unsaved":1,"owner":"ravi.nandan@sukan.eu","naming_series":"STO-ITEM-.YYYY.-","stock_uom":"Nos","disabled":0,"allow_alternative_item":0,"is_stock_item":1,"has_variants":0,"is_fixed_asset":0,"auto_create_assets":0,"is_grouped_asset":0,"uoms":[],"end_of_life":"2099-12-31","default_material_request_type":"Purchase","valuation_method":"","allow_negative_stock":0,"barcodes":[],"reorder_levels":[],"has_batch_no":0,"create_new_batch":0,"has_expiry_date":0,"retain_sample":0,"has_serial_no":0,"variant_based_on":"Item Attribute","attributes":[],"enable_deferred_expense":0,"enable_deferred_revenue":0,"item_defaults":[],"min_order_qty":0,"is_purchase_item":1,"is_customer_provided_item":0,"delivered_by_supplier":0,"supplier_items":[],"country_of_origin":"Netherlands","grant_commission":1,"is_sales_item":1,"customer_items":[],"taxes":[],"inspection_required_before_purchase":0,"inspection_required_before_delivery":0,"include_item_in_manufacturing":1,"is_sub_contracted_item":0,"item_code":"IND.810.234","item_name":"Ramen","item_group":"Consumable"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-01 08:27:25,855 ERROR frappe New Exception collected in error log
+Site: dummy.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Item","name":"new-item-exnqasejen","__islocal":1,"__unsaved":1,"owner":"ravi.nandan@sukan.eu","naming_series":"STO-ITEM-.YYYY.-","stock_uom":"Nos","disabled":0,"allow_alternative_item":0,"is_stock_item":1,"has_variants":0,"is_fixed_asset":0,"auto_create_assets":0,"is_grouped_asset":0,"uoms":[],"end_of_life":"2099-12-31","default_material_request_type":"Purchase","valuation_method":"","allow_negative_stock":0,"barcodes":[],"reorder_levels":[],"has_batch_no":0,"create_new_batch":0,"has_expiry_date":0,"retain_sample":0,"has_serial_no":0,"variant_based_on":"Item Attribute","attributes":[],"enable_deferred_expense":0,"enable_deferred_revenue":0,"item_defaults":[],"min_order_qty":0,"is_purchase_item":1,"is_customer_provided_item":0,"delivered_by_supplier":0,"supplier_items":[],"country_of_origin":"Netherlands","grant_commission":1,"is_sales_item":1,"customer_items":[],"taxes":[],"inspection_required_before_purchase":0,"inspection_required_before_delivery":0,"include_item_in_manufacturing":1,"is_sub_contracted_item":0,"item_code":"IND.810.234","item_name":"Ramen","item_group":"Consumable"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-01 08:33:03,374 ERROR frappe Error while inserting deferred Error Log record: No module named 'frappe.frappe'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:33:03,388 ERROR frappe Error while inserting deferred Error Log record: No module named 'frappe.frappe'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:33:03,402 ERROR frappe Error while inserting deferred Error Log record: No module named 'frappe.frappe'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:33:03,417 ERROR frappe Error while inserting deferred Error Log record: No module named 'frappe.frappe'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:33:03,433 ERROR frappe Error while inserting deferred Error Log record: No module named 'frappe.frappe'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:33:03,459 ERROR frappe Error while inserting deferred Route History record: No module named 'frappe.frappe'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:33:03,484 ERROR frappe Error while inserting deferred Route History record: No module named 'frappe.frappe'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:33:03,500 ERROR frappe Error while inserting deferred Route History record: No module named 'frappe.frappe'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:33:03,517 ERROR frappe Error while inserting deferred Route History record: No module named 'frappe.frappe'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:33:03,532 ERROR frappe Error while inserting deferred Route History record: No module named 'frappe.frappe'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:33:03,546 ERROR frappe Error while inserting deferred Route History record: No module named 'frappe.frappe'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:33:03,560 ERROR frappe Error while inserting deferred Route History record: No module named 'frappe.frappe'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:38:43,279 ERROR frappe New Exception collected in error log
+Site: dummy.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer","name":"new-customer-ihdusflwqp","__islocal":1,"__unsaved":1,"owner":"ravi.nandan@sukan.eu","naming_series":"CUST-.YYYY.-","customer_type":"Individual","is_internal_customer":0,"companies":[],"language":"en","credit_limits":[],"accounts":[],"sales_team":[],"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"portal_users":[],"represents_company":"","customer_name":"Rimru"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-01 08:39:52,815 ERROR frappe New Exception collected in error log
+Site: dummy.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer","name":"new-customer-ihdusflwqp","__islocal":1,"__unsaved":1,"owner":"ravi.nandan@sukan.eu","naming_series":"CUST-.YYYY.-","customer_type":"Individual","is_internal_customer":0,"companies":[],"language":"en","credit_limits":[],"accounts":[],"sales_team":[],"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"portal_users":[],"represents_company":"","customer_name":"Rimru"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-01 08:43:21,222 ERROR frappe New Exception collected in error log
+Site: dummy.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer","name":"new-customer-xjvlhigslw","__islocal":1,"__unsaved":1,"owner":"ravi.nandan@sukan.eu","naming_series":"CUST-.YYYY.-","customer_type":"Individual","is_internal_customer":0,"companies":[],"language":"en","credit_limits":[],"accounts":[],"sales_team":[],"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"portal_users":[],"represents_company":"","customer_name":"Rimru"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-01 08:44:42,724 ERROR frappe New Exception collected in error log
+Site: dummy.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer","name":"new-customer-ctcysbkznq","__islocal":1,"__unsaved":1,"owner":"ravi.nandan@sukan.eu","naming_series":"CUST-.YYYY.-","customer_type":"Individual","is_internal_customer":0,"companies":[],"language":"en","credit_limits":[],"accounts":[],"sales_team":[],"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"portal_users":[],"represents_company":"","customer_name":"Rimuru"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-01 08:48:42,078 ERROR frappe Error while inserting deferred Error Log record: expected string or bytes-like object, got 'NoneType'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:48:42,576 ERROR frappe Error while inserting deferred Error Log record: expected string or bytes-like object, got 'NoneType'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:48:43,045 ERROR frappe Error while inserting deferred Error Log record: expected string or bytes-like object, got 'NoneType'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:48:44,175 ERROR frappe Error while inserting deferred Error Log record: expected string or bytes-like object, got 'NoneType'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:48:44,867 ERROR frappe Error while inserting deferred Route History record: expected string or bytes-like object, got 'NoneType'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:48:45,323 ERROR frappe Error while inserting deferred Route History record: expected string or bytes-like object, got 'NoneType'
+Site: dummy.localhost
+Form Dict: {}
+2024-10-01 08:49:09,147 ERROR frappe New Exception collected in error log
+Site: dummy.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer","name":"new-customer-jqavuavbqo","__islocal":1,"__unsaved":1,"owner":"ravi.nandan@sukan.eu","naming_series":"CUST-.YYYY.-","customer_type":"Individual","is_internal_customer":0,"companies":[],"language":"en","credit_limits":[],"accounts":[],"sales_team":[],"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"portal_users":[],"represents_company":"","customer_name":"Rimuru"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-10-01 08:53:03,494 ERROR frappe New Exception collected in error log
+Site: dummy.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer","name":"new-customer-lfwauicolu","__islocal":1,"__unsaved":1,"owner":"ravi.nandan@sukan.eu","naming_series":"CUST-.YYYY.-","customer_type":"Individual","is_internal_customer":0,"companies":[],"language":"en","credit_limits":[],"accounts":[],"sales_team":[],"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"portal_users":[],"represents_company":"","customer_name":"Rimuru"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}

@@ -6411,3 +6411,1902 @@ ModuleNotFoundError: No module named 'erpnext.startup'
 2024-10-01 07:20:26,775 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
 2024-10-01 07:20:33,854 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
 2024-10-01 07:20:33,854 Result is kept for 600 seconds
+2024-10-01 07:24:01,114 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:24:17,316 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:24:17,316 Result is kept for 600 seconds
+2024-10-01 07:24:17,327 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:24:35,721 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:24:35,722 Result is kept for 600 seconds
+2024-10-01 07:24:35,732 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:24:47,714 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:24:47,714 Result is kept for 600 seconds
+2024-10-01 07:28:00,354 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:28:06,953 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:28:06,953 Result is kept for 600 seconds
+2024-10-01 07:28:06,961 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:28:12,364 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:28:12,365 Result is kept for 600 seconds
+2024-10-01 07:28:12,371 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:28:17,861 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:28:17,862 Result is kept for 600 seconds
+2024-10-01 07:28:17,870 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:28:23,240 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:28:23,240 Result is kept for 600 seconds
+2024-10-01 07:32:00,490 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:32:05,110 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:32:05,111 Result is kept for 600 seconds
+2024-10-01 07:32:05,117 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 07:32:05,119 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 07:32:05,120 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 07:32:05,123 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.core.doctype.prepared_report.prepared_report.expire_st..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bi4abona)
+2024-10-01 07:32:09,807 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bi4abona)
+2024-10-01 07:32:09,808 Result is kept for 600 seconds
+2024-10-01 07:32:09,814 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 07:32:15,264 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 07:32:15,264 Result is kept for 600 seconds
+2024-10-01 07:32:15,271 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 07:32:19,949 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 07:32:19,949 Result is kept for 600 seconds
+2024-10-01 07:32:19,956 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 07:32:24,546 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 07:32:24,546 Result is kept for 600 seconds
+2024-10-01 07:32:24,553 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 07:32:29,090 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 07:32:29,090 Result is kept for 600 seconds
+2024-10-01 07:32:29,101 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:32:33,526 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:32:33,526 Result is kept for 600 seconds
+2024-10-01 07:32:33,533 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.process_payment_reconciliation.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 07:32:38,270 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 07:32:38,271 Result is kept for 600 seconds
+2024-10-01 07:32:38,277 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_doc..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jqp85dg)
+2024-10-01 07:32:43,887 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jqp85dg)
+2024-10-01 07:32:43,887 Result is kept for 600 seconds
+2024-10-01 07:32:43,894 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 07:32:48,562 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 07:32:48,563 Result is kept for 600 seconds
+2024-10-01 07:32:48,569 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:32:54,147 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:32:54,148 Result is kept for 600 seconds
+2024-10-01 07:32:54,154 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 07:32:59,521 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 07:32:59,521 Result is kept for 600 seconds
+2024-10-01 07:32:59,529 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.utilities.doctype.video.video.update_youtube_data', '..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33ktm24s3)
+2024-10-01 07:33:08,271 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33ktm24s3)
+2024-10-01 07:33:08,271 Result is kept for 600 seconds
+2024-10-01 07:33:08,279 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'q1bi..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 07:33:14,182 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 07:33:14,183 Result is kept for 600 seconds
+2024-10-01 07:33:14,190 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'q1..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilqsi96)
+2024-10-01 07:33:19,051 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilqsi96)
+2024-10-01 07:33:19,052 Result is kept for 600 seconds
+2024-10-01 07:33:19,061 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:33:23,907 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:33:23,907 Result is kept for 600 seconds
+2024-10-01 07:36:00,794 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:36:05,474 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:36:05,475 Result is kept for 600 seconds
+2024-10-01 07:36:05,482 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:36:10,201 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:36:10,202 Result is kept for 600 seconds
+2024-10-01 07:36:10,211 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:36:15,869 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:36:15,872 Result is kept for 600 seconds
+2024-10-01 07:36:15,891 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:36:20,595 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:36:20,596 Result is kept for 600 seconds
+2024-10-01 07:40:00,936 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:40:05,488 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:40:05,488 Result is kept for 600 seconds
+2024-10-01 07:40:05,495 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:40:10,261 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:40:10,261 Result is kept for 600 seconds
+2024-10-01 07:40:10,270 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:40:15,648 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:40:15,648 Result is kept for 600 seconds
+2024-10-01 07:40:15,656 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:40:20,154 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:40:20,155 Result is kept for 600 seconds
+2024-10-01 07:40:20,162 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 07:40:25,487 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 07:40:25,488 Result is kept for 600 seconds
+2024-10-01 07:44:00,086 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:44:05,506 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:44:05,506 Result is kept for 600 seconds
+2024-10-01 07:44:05,512 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 07:44:05,513 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 07:44:05,514 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 07:44:05,516 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:44:10,188 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:44:10,189 Result is kept for 600 seconds
+2024-10-01 07:44:10,195 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:44:14,924 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:44:14,925 Result is kept for 600 seconds
+2024-10-01 07:48:00,227 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.process_payment_reconciliation.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 07:48:05,110 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 07:48:05,110 Result is kept for 600 seconds
+2024-10-01 07:48:05,117 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:48:09,731 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:48:09,732 Result is kept for 600 seconds
+2024-10-01 07:48:09,739 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 07:48:14,373 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 07:48:14,374 Result is kept for 600 seconds
+2024-10-01 07:48:14,381 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 07:48:19,020 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 07:48:19,021 Result is kept for 600 seconds
+2024-10-01 07:48:19,027 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 07:48:23,742 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 07:48:23,743 Result is kept for 600 seconds
+2024-10-01 07:48:23,749 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'q1..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilqsi96)
+2024-10-01 07:48:28,288 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilqsi96)
+2024-10-01 07:48:28,288 Result is kept for 600 seconds
+2024-10-01 07:48:28,294 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:48:33,729 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:48:33,729 Result is kept for 600 seconds
+2024-10-01 07:48:33,738 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 07:48:38,817 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 07:48:38,817 Result is kept for 600 seconds
+2024-10-01 07:48:38,825 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'q1bi..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 07:48:44,087 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 07:48:44,087 Result is kept for 600 seconds
+2024-10-01 07:48:44,094 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:48:48,705 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:48:48,705 Result is kept for 600 seconds
+2024-10-01 07:48:48,712 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 07:48:53,374 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 07:48:53,374 Result is kept for 600 seconds
+2024-10-01 07:48:53,381 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:48:57,820 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:48:57,820 Result is kept for 600 seconds
+2024-10-01 07:52:00,464 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:52:05,213 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:52:05,213 Result is kept for 600 seconds
+2024-10-01 07:52:05,219 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:52:09,817 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:52:09,818 Result is kept for 600 seconds
+2024-10-01 07:52:09,826 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 07:52:15,278 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 07:52:15,278 Result is kept for 600 seconds
+2024-10-01 07:52:15,286 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:52:20,186 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:52:20,186 Result is kept for 600 seconds
+2024-10-01 07:52:20,196 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:52:25,905 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:52:25,905 Result is kept for 600 seconds
+2024-10-01 07:53:24,834 Worker 97b1d78d2dc74e6384bbdcf1e72c594f [PID 4587]: warm shut down requested
+2024-10-01 07:53:24,838 Unsubscribing from channel rq:pubsub:97b1d78d2dc74e6384bbdcf1e72c594f
+2024-10-01 07:53:30,475 Worker rq:worker:9f292620014c4d208eb405909262e6b8 started with PID 20088, version 1.16.2
+2024-10-01 07:53:30,475 Subscribing to channel rq:pubsub:9f292620014c4d208eb405909262e6b8
+2024-10-01 07:53:30,477 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 07:53:30,478 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 07:53:30,480 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 07:53:30,481 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 07:54:06,264 Worker 9f292620014c4d208eb405909262e6b8 [PID 20088]: warm shut down requested
+2024-10-01 07:54:06,266 Unsubscribing from channel rq:pubsub:9f292620014c4d208eb405909262e6b8
+2024-10-01 07:54:11,426 Worker rq:worker:5a9aa1cffbaf43c390ea5e4bdbd8eec4 started with PID 20847, version 1.16.2
+2024-10-01 07:54:11,427 Subscribing to channel rq:pubsub:5a9aa1cffbaf43c390ea5e4bdbd8eec4
+2024-10-01 07:54:11,428 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 07:54:11,429 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 07:54:11,430 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 07:54:11,432 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 07:54:20,422 Worker 5a9aa1cffbaf43c390ea5e4bdbd8eec4 [PID 20847]: warm shut down requested
+2024-10-01 07:54:20,429 Unsubscribing from channel rq:pubsub:5a9aa1cffbaf43c390ea5e4bdbd8eec4
+2024-10-01 07:54:25,462 Worker rq:worker:878ca8f6e2c14d24a7403829fef936af started with PID 21157, version 1.16.2
+2024-10-01 07:54:25,462 Subscribing to channel rq:pubsub:878ca8f6e2c14d24a7403829fef936af
+2024-10-01 07:54:25,464 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 07:54:25,464 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 07:54:25,466 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 07:54:25,467 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 07:56:03,382 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:56:07,771 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 07:56:07,771 Result is kept for 600 seconds
+2024-10-01 07:56:07,778 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:56:12,586 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 07:56:12,586 Result is kept for 600 seconds
+2024-10-01 07:56:12,593 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:56:17,143 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 07:56:17,143 Result is kept for 600 seconds
+2024-10-01 07:56:17,151 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:56:22,637 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 07:56:22,638 Result is kept for 600 seconds
+2024-10-01 07:58:11,398 Worker 878ca8f6e2c14d24a7403829fef936af [PID 21157]: warm shut down requested
+2024-10-01 07:58:11,402 Unsubscribing from channel rq:pubsub:878ca8f6e2c14d24a7403829fef936af
+2024-10-01 07:58:17,769 Worker rq:worker:20f6130035fe474bb13f5ab0a2d12d95 started with PID 23228, version 1.16.2
+2024-10-01 07:58:17,770 Subscribing to channel rq:pubsub:20f6130035fe474bb13f5ab0a2d12d95
+2024-10-01 07:58:17,772 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 07:58:17,772 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 07:58:17,774 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 07:58:17,775 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:00:03,118 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_hourly_updates', 'sched..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjd8aie0)
+2024-10-01 08:00:08,068 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjd8aie0)
+2024-10-01 08:00:08,068 Result is kept for 600 seconds
+2024-10-01 08:00:08,075 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bj635ojh)
+2024-10-01 08:00:16,685 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bj635ojh)
+2024-10-01 08:00:16,685 Result is kept for 600 seconds
+2024-10-01 08:00:16,693 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:00:22,069 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:00:22,069 Result is kept for 600 seconds
+2024-10-01 08:00:22,076 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.newsletter.newsletter.send_scheduled_ema..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bj9n8iud)
+2024-10-01 08:00:27,725 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bj9n8iud)
+2024-10-01 08:00:27,726 Result is kept for 600 seconds
+2024-10-01 08:00:27,735 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.hourly_reminder', 's..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33pp3o18t)
+2024-10-01 08:00:33,380 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33pp3o18t)
+2024-10-01 08:00:33,380 Result is kept for 600 seconds
+2024-10-01 08:00:33,386 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bj98sahf)
+2024-10-01 08:00:38,301 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bj98sahf)
+2024-10-01 08:00:38,301 Result is kept for 600 seconds
+2024-10-01 08:00:38,308 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:00:42,880 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:00:42,880 Result is kept for 600 seconds
+2024-10-01 08:00:42,888 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.user_settings.sync_user_settings', 'schedu..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bj1hikp8)
+2024-10-01 08:00:47,815 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bj1hikp8)
+2024-10-01 08:00:47,815 Result is kept for 600 seconds
+2024-10-01 08:00:47,824 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33pouc1ou)
+2024-10-01 08:00:53,284 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33pouc1ou)
+2024-10-01 08:00:53,284 Result is kept for 600 seconds
+2024-10-01 08:00:53,290 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 08:00:57,877 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 08:00:57,878 Result is kept for 600 seconds
+2024-10-01 08:00:57,884 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.utilities.doctype.video.video.update_youtube_data', '..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33ktm24s3)
+2024-10-01 08:01:06,446 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33ktm24s3)
+2024-10-01 08:01:06,446 Result is kept for 600 seconds
+2024-10-01 08:01:06,455 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 08:01:11,160 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 08:01:11,161 Result is kept for 600 seconds
+2024-10-01 08:01:11,170 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 08:01:15,764 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 08:01:15,765 Result is kept for 600 seconds
+2024-10-01 08:01:15,773 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.page.backups.backups.delete_downloadable_backups'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bj9ctiug)
+2024-10-01 08:01:20,828 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bj9ctiug)
+2024-10-01 08:01:20,829 Result is kept for 600 seconds
+2024-10-01 08:01:20,836 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 08:01:26,230 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 08:01:26,230 Result is kept for 600 seconds
+2024-10-01 08:01:26,238 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 08:01:31,048 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 08:01:31,048 Result is kept for 600 seconds
+2024-10-01 08:01:31,058 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'q1bi..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 08:01:36,472 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 08:01:36,473 Result is kept for 600 seconds
+2024-10-01 08:01:36,480 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'q1..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilqsi96)
+2024-10-01 08:01:37,762 Worker 20f6130035fe474bb13f5ab0a2d12d95 [PID 23228]: warm shut down requested
+2024-10-01 08:01:41,952 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilqsi96)
+2024-10-01 08:01:41,952 Result is kept for 600 seconds
+2024-10-01 08:01:41,964 Worker rq:worker:20f6130035fe474bb13f5ab0a2d12d95: stopping on request
+2024-10-01 08:01:41,964 Unsubscribing from channel rq:pubsub:20f6130035fe474bb13f5ab0a2d12d95
+2024-10-01 08:01:42,836 Worker rq:worker:141dcffa2587426a98c90f2bc43ea674 started with PID 26001, version 1.16.2
+2024-10-01 08:01:42,837 Subscribing to channel rq:pubsub:141dcffa2587426a98c90f2bc43ea674
+2024-10-01 08:01:42,838 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 08:01:42,839 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 08:01:42,841 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 08:01:42,843 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:01:42,855 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:01:47,330 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:01:47,330 Result is kept for 600 seconds
+2024-10-01 08:01:47,338 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count', 'scheduled_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjh9j0av)
+2024-10-01 08:01:52,066 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjh9j0av)
+2024-10-01 08:01:52,066 Result is kept for 600 seconds
+2024-10-01 08:01:52,074 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.process_payment_reconciliation.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 08:01:56,060 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 08:01:56,061 Result is kept for 600 seconds
+2024-10-01 08:01:56,068 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.erpnext_integrations.doctype.plaid_settings.plaid_set..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33p8c4rtf)
+2024-10-01 08:02:01,345 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33p8c4rtf)
+2024-10-01 08:02:01,345 Result is kept for 600 seconds
+2024-10-01 08:02:01,353 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 08:02:06,624 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 08:02:06,624 Result is kept for 600 seconds
+2024-10-01 08:02:06,631 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:02:10,832 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:02:10,832 Result is kept for 600 seconds
+2024-10-01 08:02:10,840 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.collect_project_stat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33p5eg45d)
+2024-10-01 08:02:15,712 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33p5eg45d)
+2024-10-01 08:02:15,712 Result is kept for 600 seconds
+2024-10-01 08:04:03,018 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:04:08,373 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:04:08,374 Result is kept for 600 seconds
+2024-10-01 08:04:08,381 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:04:12,759 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:04:12,759 Result is kept for 600 seconds
+2024-10-01 08:04:12,766 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:04:17,444 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:04:17,445 Result is kept for 600 seconds
+2024-10-01 08:04:17,452 workspace-development-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.stock.doctype.repost_item_valuation.repost_item_valua..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q34848qtjo)
+2024-10-01 08:04:23,220 workspace-development-frappe-bench:long: Job OK (dummy.localhost::scheduled_job::q34848qtjo)
+2024-10-01 08:04:23,220 Result is kept for 600 seconds
+2024-10-01 08:08:00,184 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:08:05,793 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:08:05,793 Result is kept for 600 seconds
+2024-10-01 08:08:05,800 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:08:10,484 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:08:10,484 Result is kept for 600 seconds
+2024-10-01 08:08:10,493 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:08:15,199 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:08:15,199 Result is kept for 600 seconds
+2024-10-01 08:08:15,206 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:08:20,055 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:08:20,055 Result is kept for 600 seconds
+2024-10-01 08:10:48,531 Worker 141dcffa2587426a98c90f2bc43ea674 [PID 26001]: warm shut down requested
+2024-10-01 08:10:48,534 Unsubscribing from channel rq:pubsub:141dcffa2587426a98c90f2bc43ea674
+2024-10-01 08:10:53,870 Worker rq:worker:a57d5ff099cd4dce9721b0537ba5ccc2 started with PID 29085, version 1.16.2
+2024-10-01 08:10:53,870 Subscribing to channel rq:pubsub:a57d5ff099cd4dce9721b0537ba5ccc2
+2024-10-01 08:10:53,872 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 08:10:53,872 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 08:10:53,874 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 08:10:53,875 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:12:03,262 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:12:08,036 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:12:08,036 Result is kept for 600 seconds
+2024-10-01 08:12:08,044 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:12:12,665 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:12:12,666 Result is kept for 600 seconds
+2024-10-01 08:12:12,672 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 08:12:18,128 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 08:12:18,129 Result is kept for 600 seconds
+2024-10-01 08:12:18,136 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:12:22,743 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:12:22,743 Result is kept for 600 seconds
+2024-10-01 08:12:22,751 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:12:28,161 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:12:28,162 Result is kept for 600 seconds
+2024-10-01 08:12:28,169 workspace-development-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.utilities.bulk_transaction.retry', 'scheduled_job_typ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q348mvb15c)
+2024-10-01 08:12:33,189 workspace-development-frappe-bench:long: Job OK (dummy.localhost::scheduled_job::q348mvb15c)
+2024-10-01 08:12:33,189 Result is kept for 600 seconds
+2024-10-01 08:15:11,227 Worker a57d5ff099cd4dce9721b0537ba5ccc2 [PID 29085]: warm shut down requested
+2024-10-01 08:15:11,230 Unsubscribing from channel rq:pubsub:a57d5ff099cd4dce9721b0537ba5ccc2
+2024-10-01 08:15:17,455 Worker rq:worker:12fc31bc49554412a823f8a95ad12b92 started with PID 31777, version 1.16.2
+2024-10-01 08:15:17,455 Subscribing to channel rq:pubsub:12fc31bc49554412a823f8a95ad12b92
+2024-10-01 08:15:17,457 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 08:15:17,458 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 08:15:17,459 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 08:15:17,460 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:16:03,488 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:16:08,403 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:16:08,403 Result is kept for 600 seconds
+2024-10-01 08:16:08,410 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 08:16:14,232 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 08:16:14,232 Result is kept for 600 seconds
+2024-10-01 08:16:14,239 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.process_payment_reconciliation.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 08:16:18,880 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 08:16:18,880 Result is kept for 600 seconds
+2024-10-01 08:16:18,888 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'q1..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilqsi96)
+2024-10-01 08:16:24,033 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilqsi96)
+2024-10-01 08:16:24,033 Result is kept for 600 seconds
+2024-10-01 08:16:24,041 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 08:16:28,810 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 08:16:28,811 Result is kept for 600 seconds
+2024-10-01 08:16:28,818 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 08:16:34,230 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 08:16:34,230 Result is kept for 600 seconds
+2024-10-01 08:16:34,238 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'q1bi..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 08:16:39,673 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 08:16:39,674 Result is kept for 600 seconds
+2024-10-01 08:16:39,681 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:16:44,443 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:16:44,443 Result is kept for 600 seconds
+2024-10-01 08:16:44,452 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 08:16:49,119 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 08:16:49,119 Result is kept for 600 seconds
+2024-10-01 08:16:49,126 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:16:53,721 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:16:53,722 Result is kept for 600 seconds
+2024-10-01 08:16:53,728 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 08:16:58,517 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 08:16:58,518 Result is kept for 600 seconds
+2024-10-01 08:16:58,525 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:17:03,174 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:17:03,174 Result is kept for 600 seconds
+2024-10-01 08:19:22,297 Worker 12fc31bc49554412a823f8a95ad12b92 [PID 31777]: warm shut down requested
+2024-10-01 08:19:22,302 Unsubscribing from channel rq:pubsub:12fc31bc49554412a823f8a95ad12b92
+2024-10-01 08:19:28,070 Worker rq:worker:7814ae4a964741bca622c49bb78d1421 started with PID 34553, version 1.16.2
+2024-10-01 08:19:28,070 Subscribing to channel rq:pubsub:7814ae4a964741bca622c49bb78d1421
+2024-10-01 08:19:28,072 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 08:19:28,073 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 08:19:28,074 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 08:19:28,076 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:20:03,271 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:20:07,236 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:20:07,236 Result is kept for 600 seconds
+2024-10-01 08:20:07,243 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:20:11,377 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:20:11,377 Result is kept for 600 seconds
+2024-10-01 08:20:11,383 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:20:15,465 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:20:15,466 Result is kept for 600 seconds
+2024-10-01 08:20:15,473 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 08:20:21,943 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 08:20:21,943 Result is kept for 600 seconds
+2024-10-01 08:20:21,952 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:20:27,507 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:20:27,508 Result is kept for 600 seconds
+2024-10-01 08:20:53,032 Worker 7814ae4a964741bca622c49bb78d1421 [PID 34553]: warm shut down requested
+2024-10-01 08:20:53,035 Unsubscribing from channel rq:pubsub:7814ae4a964741bca622c49bb78d1421
+2024-10-01 08:21:03,702 Worker rq:worker:bc44e834990a453196dc5c03e53cf53f started with PID 36074, version 1.16.2
+2024-10-01 08:21:03,702 Subscribing to channel rq:pubsub:bc44e834990a453196dc5c03e53cf53f
+2024-10-01 08:21:03,705 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 08:21:03,706 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 08:21:03,708 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 08:21:03,710 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:24:03,690 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:24:08,543 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:24:08,544 Result is kept for 600 seconds
+2024-10-01 08:24:08,558 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:24:14,975 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:24:14,976 Result is kept for 600 seconds
+2024-10-01 08:24:14,983 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:24:19,694 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:24:19,694 Result is kept for 600 seconds
+2024-10-01 08:24:36,920 Worker bc44e834990a453196dc5c03e53cf53f [PID 36074]: warm shut down requested
+2024-10-01 08:24:36,923 Unsubscribing from channel rq:pubsub:bc44e834990a453196dc5c03e53cf53f
+2024-10-01 08:25:04,120 Worker rq:worker:90a6dc4e771f42f4b5d13770d1a33b11 started with PID 38732, version 1.16.2
+2024-10-01 08:25:04,120 Subscribing to channel rq:pubsub:90a6dc4e771f42f4b5d13770d1a33b11
+2024-10-01 08:25:04,122 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 08:25:04,123 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 08:25:04,124 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 08:25:04,126 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:27:59,199 Worker 90a6dc4e771f42f4b5d13770d1a33b11 [PID 38732]: warm shut down requested
+2024-10-01 08:27:59,207 Unsubscribing from channel rq:pubsub:90a6dc4e771f42f4b5d13770d1a33b11
+2024-10-01 08:28:21,770 Worker rq:worker:bdf6a25fbb2b47bdad66cdef26df1c99 started with PID 40697, version 1.16.2
+2024-10-01 08:28:21,770 Subscribing to channel rq:pubsub:bdf6a25fbb2b47bdad66cdef26df1c99
+2024-10-01 08:28:21,772 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 08:28:21,772 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 08:28:21,774 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 08:28:21,775 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:32:03,688 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:32:09,111 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:32:09,111 Result is kept for 600 seconds
+2024-10-01 08:32:09,119 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.core.doctype.prepared_report.prepared_report.expire_st..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bi4abona)
+2024-10-01 08:32:13,963 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bi4abona)
+2024-10-01 08:32:13,963 Result is kept for 600 seconds
+2024-10-01 08:32:13,970 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 08:32:18,888 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 08:32:18,889 Result is kept for 600 seconds
+2024-10-01 08:32:18,896 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.utilities.doctype.video.video.update_youtube_data', '..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33ktm24s3)
+2024-10-01 08:32:27,877 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33ktm24s3)
+2024-10-01 08:32:27,877 Result is kept for 600 seconds
+2024-10-01 08:32:27,884 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 08:32:32,646 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 08:32:32,647 Result is kept for 600 seconds
+2024-10-01 08:32:32,654 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 08:32:38,171 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 08:32:38,171 Result is kept for 600 seconds
+2024-10-01 08:32:38,179 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'q1bi..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 08:32:44,274 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 08:32:44,274 Result is kept for 600 seconds
+2024-10-01 08:32:44,281 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 08:32:49,037 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 08:32:49,038 Result is kept for 600 seconds
+2024-10-01 08:32:49,044 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:32:53,757 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:32:53,757 Result is kept for 600 seconds
+2024-10-01 08:32:53,766 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 08:32:58,466 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 08:32:58,467 Result is kept for 600 seconds
+2024-10-01 08:32:58,474 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'q1..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilqsi96)
+2024-10-01 08:33:03,571 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilqsi96)
+2024-10-01 08:33:03,572 Result is kept for 600 seconds
+2024-10-01 08:33:03,580 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 08:33:09,161 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 08:33:09,162 Result is kept for 600 seconds
+2024-10-01 08:33:09,169 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.gl_entry.gl_entry.rename_gle_sle_doc..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jqp85dg)
+2024-10-01 08:33:15,033 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jqp85dg)
+2024-10-01 08:33:15,034 Result is kept for 600 seconds
+2024-10-01 08:33:15,042 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:33:19,848 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:33:19,848 Result is kept for 600 seconds
+2024-10-01 08:33:19,854 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.process_payment_reconciliation.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 08:33:25,197 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 08:33:25,198 Result is kept for 600 seconds
+2024-10-01 08:33:25,206 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:33:30,701 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:33:30,702 Result is kept for 600 seconds
+2024-10-01 08:36:00,890 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:36:06,020 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:36:06,020 Result is kept for 600 seconds
+2024-10-01 08:36:06,027 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:36:10,724 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:36:10,724 Result is kept for 600 seconds
+2024-10-01 08:36:10,732 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:36:15,333 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:36:15,334 Result is kept for 600 seconds
+2024-10-01 08:36:15,341 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:36:19,937 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:36:19,937 Result is kept for 600 seconds
+2024-10-01 08:40:00,065 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:40:04,757 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:40:04,758 Result is kept for 600 seconds
+2024-10-01 08:40:04,764 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 08:40:04,765 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 08:40:04,766 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:40:04,768 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:40:09,523 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:40:09,524 Result is kept for 600 seconds
+2024-10-01 08:40:09,532 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:40:14,314 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:40:14,315 Result is kept for 600 seconds
+2024-10-01 08:40:14,322 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 08:40:19,920 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 08:40:19,920 Result is kept for 600 seconds
+2024-10-01 08:40:19,928 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:40:25,681 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:40:25,682 Result is kept for 600 seconds
+2024-10-01 08:41:56,058 Worker bdf6a25fbb2b47bdad66cdef26df1c99 [PID 40697]: warm shut down requested
+2024-10-01 08:41:56,061 Unsubscribing from channel rq:pubsub:bdf6a25fbb2b47bdad66cdef26df1c99
+2024-10-01 08:42:16,509 Worker rq:worker:10e446bbc25343fb88c8f6cc87197898 started with PID 46809, version 1.16.2
+2024-10-01 08:42:16,509 Subscribing to channel rq:pubsub:10e446bbc25343fb88c8f6cc87197898
+2024-10-01 08:42:16,511 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 08:42:16,511 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 08:42:16,513 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 08:42:16,514 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:44:03,008 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:44:07,622 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:44:07,622 Result is kept for 600 seconds
+2024-10-01 08:44:07,630 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:44:12,312 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:44:12,312 Result is kept for 600 seconds
+2024-10-01 08:44:12,320 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:44:18,486 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:44:18,486 Result is kept for 600 seconds
+2024-10-01 08:47:40,501 Worker 10e446bbc25343fb88c8f6cc87197898 [PID 46809]: warm shut down requested
+2024-10-01 08:47:40,507 Unsubscribing from channel rq:pubsub:10e446bbc25343fb88c8f6cc87197898
+2024-10-01 08:47:58,385 Worker rq:worker:afae67174a97469fb627ae417ae69bb7 started with PID 49553, version 1.16.2
+2024-10-01 08:47:58,386 Subscribing to channel rq:pubsub:afae67174a97469fb627ae417ae69bb7
+2024-10-01 08:47:58,387 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 08:47:58,388 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 08:47:58,389 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 08:47:58,391 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:48:03,555 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 08:48:07,840 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 08:48:07,840 Result is kept for 600 seconds
+2024-10-01 08:48:07,847 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 08:48:10,949 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 08:48:10,949 Result is kept for 600 seconds
+2024-10-01 08:48:10,956 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 08:48:16,579 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 08:48:16,579 Result is kept for 600 seconds
+2024-10-01 08:48:16,586 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 08:48:20,818 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 08:48:20,819 Result is kept for 600 seconds
+2024-10-01 08:48:20,826 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.process_payment_reconciliation.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 08:48:25,364 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 08:48:25,365 Result is kept for 600 seconds
+2024-10-01 08:48:25,372 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:48:29,634 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:48:29,635 Result is kept for 600 seconds
+2024-10-01 08:48:29,641 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:48:33,886 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:48:33,887 Result is kept for 600 seconds
+2024-10-01 08:48:33,894 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'q1..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilqsi96)
+3
+4
+5
+6
+7
+8
+9
+10
+1
+3
+4
+5
+6
+7
+8
+9
+10
+1
+3
+4
+5
+6
+7
+8
+9
+10
+1
+3
+4
+5
+6
+7
+8
+9
+10
+1
+3
+4
+5
+6
+7
+8
+9
+10
+1
+3
+4
+5
+6
+7
+8
+9
+10
+1
+2024-10-01 08:48:45,339 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilqsi96)
+2024-10-01 08:48:45,339 Result is kept for 600 seconds
+2024-10-01 08:48:45,347 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'q1bi..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 08:48:50,030 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 08:48:50,030 Result is kept for 600 seconds
+2024-10-01 08:48:50,037 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 08:48:54,103 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 08:48:54,104 Result is kept for 600 seconds
+2024-10-01 08:48:54,117 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:49:01,189 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:49:01,189 Result is kept for 600 seconds
+2024-10-01 08:49:01,197 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:49:06,746 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:49:06,746 Result is kept for 600 seconds
+2024-10-01 08:51:40,795 Worker afae67174a97469fb627ae417ae69bb7 [PID 49553]: warm shut down requested
+2024-10-01 08:51:40,798 Unsubscribing from channel rq:pubsub:afae67174a97469fb627ae417ae69bb7
+2024-10-01 08:51:57,426 Worker rq:worker:45433a15f37c4d82a923d155a337a31f started with PID 51958, version 1.16.2
+2024-10-01 08:51:57,426 Subscribing to channel rq:pubsub:45433a15f37c4d82a923d155a337a31f
+2024-10-01 08:51:57,428 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 08:51:57,428 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 08:51:57,430 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 08:51:57,431 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:52:03,661 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:52:08,014 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:52:08,014 Result is kept for 600 seconds
+2024-10-01 08:52:08,021 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:52:11,444 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:52:11,444 Result is kept for 600 seconds
+2024-10-01 08:52:11,451 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:52:17,417 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:52:17,418 Result is kept for 600 seconds
+2024-10-01 08:52:17,424 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:52:21,609 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:52:21,609 Result is kept for 600 seconds
+2024-10-01 08:52:21,615 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 08:52:26,630 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 08:52:26,630 Result is kept for 600 seconds
+2024-10-01 08:53:12,258 Worker 45433a15f37c4d82a923d155a337a31f [PID 51958]: warm shut down requested
+2024-10-01 08:53:12,262 Unsubscribing from channel rq:pubsub:45433a15f37c4d82a923d155a337a31f
+2024-10-01 08:55:40,311 Worker rq:worker:08dafb999a16403eaebf6f5116c3b352 started with PID 53624, version 1.16.2
+2024-10-01 08:55:40,311 Subscribing to channel rq:pubsub:08dafb999a16403eaebf6f5116c3b352
+2024-10-01 08:55:40,313 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 08:55:40,314 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 08:55:40,315 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 08:55:40,316 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 08:56:03,495 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:56:07,844 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 08:56:07,844 Result is kept for 600 seconds
+2024-10-01 08:56:07,851 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:56:12,023 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 08:56:12,024 Result is kept for 600 seconds
+2024-10-01 08:56:12,030 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:56:17,075 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 08:56:17,076 Result is kept for 600 seconds
+2024-10-01 08:56:17,082 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:56:21,247 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 08:56:21,247 Result is kept for 600 seconds
+2024-10-01 09:00:00,671 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.manufacturing.doctype.bom_update_log.bom_update_log.r..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 09:00:05,253 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jrj81jh)
+2024-10-01 09:00:05,253 Result is kept for 600 seconds
+2024-10-01 09:00:05,259 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.notify_unrep..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 09:00:10,041 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bib3e2qj)
+2024-10-01 09:00:10,042 Result is kept for 600 seconds
+2024-10-01 09:00:10,048 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.accounts.doctype.process_payment_reconciliation.proce..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 09:00:14,658 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33jga40t9)
+2024-10-01 09:00:14,659 Result is kept for 600 seconds
+2024-10-01 09:00:14,666 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.hourly_reminder', 's..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33pp3o18t)
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+2024-10-01 09:00:23,387 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33pp3o18t)
+2024-10-01 09:00:23,387 Result is kept for 600 seconds
+2024-10-01 09:00:23,395 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.utils.global_search.sync_global_search', 'scheduled_jo..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 09:00:27,853 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bi2g6rjt)
+2024-10-01 09:00:27,854 Result is kept for 600 seconds
+2024-10-01 09:00:27,860 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 09:00:32,462 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 09:00:32,462 Result is kept for 600 seconds
+2024-10-01 09:00:32,469 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.user_settings.sync_user_settings', 'schedu..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bj1hikp8)
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+2024-10-01 09:00:37,932 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bj1hikp8)
+2024-10-01 09:00:37,933 Result is kept for 600 seconds
+2024-10-01 09:00:37,940 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.twofactor.delete_all_barcodes_for_users', 'scheduled_j..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 09:00:42,545 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1biama0jn)
+2024-10-01 09:00:42,546 Result is kept for 600 seconds
+2024-10-01 09:00:42,552 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.erpnext_integrations.doctype.plaid_settings.plaid_set..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33p8c4rtf)
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+2024-10-01 09:00:48,557 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33p8c4rtf)
+2024-10-01 09:00:48,557 Result is kept for 600 seconds
+2024-10-01 09:00:48,565 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.model.utils.link_count.update_link_count', 'scheduled_..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjh9j0av)
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+2024-10-01 09:00:53,991 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjh9j0av)
+2024-10-01 09:00:53,991 Result is kept for 600 seconds
+2024-10-01 09:00:53,998 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.web_page.web_page.check_publish_status..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 09:00:59,295 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bihrfvt6)
+2024-10-01 09:00:59,295 Result is kept for 600 seconds
+2024-10-01 09:00:59,302 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 09:01:04,816 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 09:01:04,816 Result is kept for 600 seconds
+2024-10-01 09:01:04,824 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.oauth.delete_oauth2_data', 'scheduled_job_type': 'q1bi..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 09:01:10,199 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilkon0k)
+2024-10-01 09:01:10,199 Result is kept for 600 seconds
+2024-10-01 09:01:10,206 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.deferred_insert.save_to_db', 'scheduled_job_type': 'q1..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bilqsi96)
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+2024-10-01 09:01:16,137 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bilqsi96)
+2024-10-01 09:01:16,137 Result is kept for 600 seconds
+2024-10-01 09:01:16,144 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.form.document_follow.send_hourly_updates', 'sched..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjd8aie0)
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+2024-10-01 09:01:21,928 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjd8aie0)
+2024-10-01 09:01:21,928 Result is kept for 600 seconds
+2024-10-01 09:01:21,936 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.collect_project_stat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33p5eg45d)
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+2024-10-01 09:01:27,945 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33p5eg45d)
+2024-10-01 09:01:27,945 Result is kept for 600 seconds
+2024-10-01 09:01:27,951 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 09:01:32,510 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 09:01:32,510 Result is kept for 600 seconds
+2024-10-01 09:01:32,517 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.integrations.doctype.google_calendar.google_calendar.s..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bj635ojh)
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+2024-10-01 09:01:40,945 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bj635ojh)
+2024-10-01 09:01:40,946 Result is kept for 600 seconds
+2024-10-01 09:01:40,954 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.newsletter.newsletter.send_scheduled_ema..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bj9n8iud)
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+2024-10-01 09:01:47,111 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bj9n8iud)
+2024-10-01 09:01:47,111 Result is kept for 600 seconds
+2024-10-01 09:01:47,119 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.desk.page.backups.backups.delete_downloadable_backups'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bj9ctiug)
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+2024-10-01 09:01:52,653 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bj9ctiug)
+2024-10-01 09:01:52,654 Result is kept for 600 seconds
+2024-10-01 09:01:52,662 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.projects.doctype.project.project.project_status_updat..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33pouc1ou)
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+2024-10-01 09:01:59,036 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33pouc1ou)
+2024-10-01 09:01:59,037 Result is kept for 600 seconds
+2024-10-01 09:01:59,043 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.utilities.doctype.video.video.update_youtube_data', '..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q33ktm24s3)
+2024-10-01 09:02:07,628 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q33ktm24s3)
+2024-10-01 09:02:07,628 Result is kept for 600 seconds
+2024-10-01 09:02:07,637 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 09:02:12,279 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 09:02:12,280 Result is kept for 600 seconds
+2024-10-01 09:02:12,286 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.website.doctype.personal_data_deletion_request.persona..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bj98sahf)
+3
+4
+{
+     "ACC-SINV-2024-00001": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:35:14.084094",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:35:17.284319",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 0.0
+     },
+     "ACC-SINV-2024-00002": {
+          "Customer Name": "Tester",
+          "Payment Status": "Overdue",
+          "Creation Date": "2024-09-28 11:39:07.051039",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:39:10.83069",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 21.78,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00003": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 11:51:19.454652",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "11:51:24.574747",
+          "Partial Payment": 21.78,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 21.78
+     },
+     "ACC-SINV-2024-00004": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-28 12:01:14.619974",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "12:01:26.143994",
+          "Partial Payment": 20.0,
+          "Outstanding Payment": 13.88,
+          "Total Amount": 33.88
+     },
+     "ACC-SINV-2024-00005": {
+          "Customer Name": "Tester",
+          "Payment Status": "Paid",
+          "Creation Date": "2024-09-28 16:25:22.531117",
+          "Posting Date": "2024-09-28",
+          "Posting Time": "16:25:28.415587",
+          "Partial Payment": 2178.0,
+          "Outstanding Payment": 0.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:20:20.012036",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 0.0,
+          "Outstanding Payment": 2178.0,
+          "Total Amount": 2178.0
+     },
+     "ACC-SINV-2024-00006-1": {
+          "Customer Name": "Tester",
+          "Payment Status": "Cancelled",
+          "Creation Date": "2024-09-30 10:21:49.824536",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:20:38.662195",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 3356.0,
+          "Total Amount": 4356.0
+     },
+     "ACC-SINV-2024-00007": {
+          "Customer Name": "Tester",
+          "Payment Status": "Partly Paid",
+          "Creation Date": "2024-09-30 10:45:11.543578",
+          "Posting Date": "2024-09-30",
+          "Posting Time": "10:45:20.042109",
+          "Partial Payment": 1000.0,
+          "Outstanding Payment": 4082.0,
+          "Total Amount": 5082.0
+     }
+}
+2024-10-01 09:02:17,954 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bj98sahf)
+2024-10-01 09:02:17,954 Result is kept for 600 seconds
+2024-10-01 09:02:17,961 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 09:02:23,343 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 09:02:23,343 Result is kept for 600 seconds
+2024-10-01 09:02:36,912 Worker 08dafb999a16403eaebf6f5116c3b352 [PID 53624]: warm shut down requested
+2024-10-01 09:02:36,915 Unsubscribing from channel rq:pubsub:08dafb999a16403eaebf6f5116c3b352
+2024-10-01 09:04:26,427 Worker rq:worker:ca60c12cc145460dbdda443db35eb308 started with PID 57822, version 1.16.2
+2024-10-01 09:04:26,427 Subscribing to channel rq:pubsub:ca60c12cc145460dbdda443db35eb308
+2024-10-01 09:04:26,429 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 09:04:26,430 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 09:04:26,431 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 09:04:26,432 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 09:08:03,984 workspace-development-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.stock.doctype.repost_item_valuation.repost_item_valua..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q34848qtjo)
+1
+None
+2
+2024-10-01 09:08:10,504 workspace-development-frappe-bench:long: Job OK (dummy.localhost::scheduled_job::q34848qtjo)
+2024-10-01 09:08:10,504 Result is kept for 600 seconds
+2024-10-01 09:08:10,513 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 09:08:15,376 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 09:08:15,376 Result is kept for 600 seconds
+2024-10-01 09:08:15,384 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 09:08:19,937 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 09:08:19,937 Result is kept for 600 seconds
+2024-10-01 09:08:19,943 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.queue.flush', 'scheduled_job_type': 'q1bjlpd478'..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 09:08:25,580 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjlpd478)
+2024-10-01 09:08:25,581 Result is kept for 600 seconds
+2024-10-01 09:08:25,589 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 09:08:30,235 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 09:08:30,235 Result is kept for 600 seconds
+2024-10-01 09:08:30,242 workspace-development-frappe-bench:long: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'erpnext.utilities.bulk_transaction.retry', 'scheduled_job_typ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q348mvb15c)
+1
+None
+2
+2024-10-01 09:08:35,470 workspace-development-frappe-bench:long: Job OK (dummy.localhost::scheduled_job::q348mvb15c)
+2024-10-01 09:08:35,471 Result is kept for 600 seconds
+2024-10-01 09:12:00,147 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.monitor.flush', 'scheduled_job_type': 'q1bjte3i3q'}, method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 09:12:00,631 Worker ca60c12cc145460dbdda443db35eb308 [PID 57822]: warm shut down requested
+2024-10-01 09:12:04,263 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjte3i3q)
+2024-10-01 09:12:04,263 Result is kept for 600 seconds
+2024-10-01 09:12:04,271 Worker rq:worker:ca60c12cc145460dbdda443db35eb308: stopping on request
+2024-10-01 09:12:04,271 Unsubscribing from channel rq:pubsub:ca60c12cc145460dbdda443db35eb308
+2024-10-01 09:12:19,926 Worker rq:worker:9c30271ecb124e9d985de26425d8ac51 started with PID 62489, version 1.16.2
+2024-10-01 09:12:19,927 Subscribing to channel rq:pubsub:9c30271ecb124e9d985de26425d8ac51
+2024-10-01 09:12:19,929 *** Listening on workspace-development-frappe-bench:short, workspace-development-frappe-bench:default, workspace-development-frappe-bench:long...
+2024-10-01 09:12:19,930 Cleaning registries for queue: workspace-development-frappe-bench:short
+2024-10-01 09:12:19,932 Cleaning registries for queue: workspace-development-frappe-bench:default
+2024-10-01 09:12:19,933 Cleaning registries for queue: workspace-development-frappe-bench:long
+2024-10-01 09:12:19,944 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.email_account.email_account.pull', 'sche..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 09:12:25,686 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bitcnbrd)
+2024-10-01 09:12:25,686 Result is kept for 600 seconds
+2024-10-01 09:12:25,698 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.email.doctype.notification.notification.trigger_offset..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 09:12:30,183 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bf6djue7)
+2024-10-01 09:12:30,183 Result is kept for 600 seconds
+2024-10-01 09:12:30,191 workspace-development-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., kwargs={'job_type': 'frappe.automation.doctype.reminder.reminder.send_reminders', ..., method='frappe.core.doctype.scheduled_job_type.scheduled_job_type.run_scheduled_jo..., site='dummy.localhost', user='Administrator') (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 09:12:31,486 Worker 9c30271ecb124e9d985de26425d8ac51 [PID 62489]: warm shut down requested
+2024-10-01 09:12:34,543 workspace-development-frappe-bench:default: Job OK (dummy.localhost::scheduled_job::q1bjg4o9gm)
+2024-10-01 09:12:34,543 Result is kept for 600 seconds
+2024-10-01 09:12:34,551 Worker rq:worker:9c30271ecb124e9d985de26425d8ac51: stopping on request
+2024-10-01 09:12:34,551 Unsubscribing from channel rq:pubsub:9c30271ecb124e9d985de26425d8ac51
